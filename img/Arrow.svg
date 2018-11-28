@@ -1,0 +1,38 @@
+<svg width="16" height="11" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Arrow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3884 112)" figma:type="canvas">
+<rect x="-3884" y="-112" width="16" height="11" fill="#FFFFFF"/>
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -5201 -1063L -3736 -1063L -3736 7112L -5201 7112L -5201 -1063Z" fill="#FFFFFF"/>
+</mask>
+<g id="Locations Page" mask="url(#mask0_alpha)" figma:type="frame">
+<path d="M -5201 -1063L -3736 -1063L -3736 7112L -5201 7112L -5201 -1063Z" fill="#FFFFFF"/>
+<g id="Form" figma:type="frame">
+<g id="Rectangle 12" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-4144 -552)" fill="#002C40"/>
+</g>
+<g id="Form Fill Copy 5" figma:type="instance">
+<g id="Rectangle 9" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-4133 -129)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-4133 -129)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-4133 -129)" fill="#979797"/>
+</g>
+</g>
+<g id="Arrow" figma:type="vector">
+<use xlink:href="#path3_fill" transform="matrix(-1 -1.33669e-16 1.122e-16 -1 -3868.58 -101.437)" fill="#695F69"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 295 0L 295 920L 0 920L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 273.574 0L 273.574 45.939L 0 45.939L 0 0Z"/>
+<path id="path2_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 273.574 0L 274.574 0L 274.574 -1L 273.574 -1L 273.574 0ZM 273.574 45.939L 273.574 46.939L 274.574 46.939L 274.574 45.939L 273.574 45.939ZM 0 45.939L -1 45.939L -1 46.939L 0 46.939L 0 45.939ZM 0 1L 273.574 1L 273.574 -1L 0 -1L 0 1ZM 272.574 0L 272.574 45.939L 274.574 45.939L 274.574 0L 272.574 0ZM 273.574 44.939L 0 44.939L 0 46.939L 273.574 46.939L 273.574 44.939ZM 1 45.939L 1 0L -1 0L -1 45.939L 1 45.939Z"/>
+<path id="path3_fill" d="M 12.4403 9.58727L 14.6394 7.37231L 7.31971 0L 0 7.37231L 2.19915 9.58727L 7.31971 4.42991L 12.4403 9.58727Z"/>
+</defs>
+</svg>

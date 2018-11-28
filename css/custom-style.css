@@ -1,0 +1,428 @@
+#iframeModal .iframeContent {
+  width: 100%;
+  display: block;
+  border: none;
+  height: 100%;
+}
+
+#sidebar-left.sidebar-left-fixed {
+  position: fixed;
+  top: 0;
+  max-width: 222px;
+}
+
+#sidebar-left2 {
+  opacity: 0;
+}
+
+#sidebar-right {
+  opacity: 0;
+}
+
+#services {
+  padding: 0 0 100px;
+  min-height: 991px;
+}
+
+#services2 {
+  padding: 30px 0 0;
+}
+
+#services .services-img {
+  position: relative;
+}
+
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0),0 0 8px rgba(102,175,233,0);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0),0 0 8px rgba(102,175,233,0);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0),0 0 8px rgba(102,175,233,0);
+}
+
+.services-sidebar {
+  position: static;
+}
+
+.slider-slick {
+  padding: 23px 30px;
+}
+
+#services .services-img img {
+  min-height: auto;
+}
+
+.our-work .services-img img {
+  min-height: 240px;
+}
+.iphone-bg .slick-slider {
+  padding: 2% 12%;
+  overflow: hidden;
+}
+
+.showcase .explore-3d iframe {
+  height: 700px;
+}
+
+.padding-right-100 {
+  padding-right: 100px;
+}
+
+.padding-right-30 {
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .our-work .services-img img {
+    min-height: 140px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slider-slick {
+    padding: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #services {
+    padding: 0;
+  }
+
+  .slider-slick {
+    padding: 4%;
+  }
+  .our-work .services-img img {
+    min-height: 180px;
+  }
+  .iphone-bg .slick-slider {
+    height: 182px;
+  }
+  .padding-right-30 {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .our-work .services-img img {
+    min-height: auto;
+  }
+  .our-work .slick-vertical .slick-slide {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .iphone-bg .slick-slider {
+    height: 178px;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .iphone-bg .slick-slider {
+    height: 172px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .iphone-bg .slick-slider {
+    height: 172px;
+  }
+
+  .services.services-bg-light-grey .services-img img {
+    min-height: auto;
+  }
+}
+
+.svg-animation .showcase-svg-box {
+  background: #fff;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  padding: 5px 0;
+  animation-delay: 8s;
+  animation-name: fadeout;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation {
+  overflow: hidden;
+  position: relative;
+}
+
+.showcase-svg-box {
+  opacity: 0;
+}
+
+.svg-animation .showcase-svg-box {
+  opacity: 1;
+}
+
+.svg-animation .showcase-svg-box svg {
+  width: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .svg-animation .showcase-svg-box svg {
+    width: 100%;
+  }
+}
+
+.svg-animation .showcase-image-box {
+  position: relative;
+}
+
+.svg-animation .showcase-image-box-bg {
+  background-size: cover !important;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.showcase-image-box-btn {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.svg-animation .showcase-image-box-btn {
+  position: relative;
+  overflow: hidden;
+  padding: 180px 100px;
+  animation-delay: 10s;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@media screen and (max-width: 991px) {
+  .svg-animation .showcase-image-box-btn {
+    padding: 135px 100px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .svg-animation .showcase-image-box-btn {
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .svg-animation .showcase-image-box-btn {
+    padding: 80px 100px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .svg-animation .showcase-image-box-btn {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .svg-animation .showcase-image-box-btn {
+    padding: 20px 10px;
+  }
+}
+
+.svg-animation .showcase-image-box-btn a {
+  background: #2DB9D0;
+  color: #fff;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 40px;
+  white-space: normal;
+}
+
+@media screen and (max-width: 510px) {
+  .svg-animation .showcase-image-box-btn a {
+    margin-bottom: 5px;
+  }
+}
+
+.svg-animation .showcase-image-box-btn a:last-child {
+  margin-bottom: 0;
+}
+
+.svg-animation svg {
+  margin: auto;
+}
+
+.svg-animation g#Stroke_3 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_5 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation-delay: 1s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_8 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation-delay: 1s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_9 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 780;
+  stroke-dashoffset: 780;
+  animation-delay: 2s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_10 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation-delay: 2s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Page_1 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 850;
+  animation-delay: 3s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_12 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 740;
+  animation-delay: 4s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Stroke_13 {
+  fill-opacity: 0;
+  stroke: #05C5DC;
+  /*stroke: #333;*/
+  stroke-width: 0.5;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 850;
+  animation-delay: 5s;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation g#Shadow {
+  fill-opacity: 0;
+  animation-delay: 6s;
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.svg-animation #Study,
+.svg-animation #Entryway,
+.svg-animation #Workshop,
+.svg-animation #Conference,
+.svg-animation #Kitchen,
+.svg-animation #Exit {
+  fill-opacity: 0;
+  stroke-width: 0.5;
+  animation-delay: 6s;
+  animation-name: show;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes show {
+  to {
+    fill-opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}

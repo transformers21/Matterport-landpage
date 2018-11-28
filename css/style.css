@@ -1,0 +1,922 @@
+/* ===== Setup colors, and other defaults ==== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+input[placeholder],
+textarea[placeholder],
+input::-moz-placeholder,
+input:-moz-placeholder,
+input:-ms-input-placeholder {
+    color:#695F69;
+    font-size:14px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {color:#695F69;}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(../img/Arrow.svg)!important;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    padding-right: 30px!important;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+option {
+    color: #555;
+}
+select.unselected {
+    color: #999999;    
+}
+select::-ms-expand {
+    display: none;
+}
+
+
+div.form-group select{
+    border-radius:0px;
+}
+.btn {
+    border: 2px solid transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Titillium Web, sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.btn-primary,
+.btn-warning,
+.btn-success,
+.btn-info {
+    background: transparent;
+}
+
+.btn-info {
+    color: #00B8CE;
+    border-color: #00B8CE;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #269abc;
+    border-color: #269abc;
+}
+
+.btn-warning {
+    color: #FAAC17;
+    border-color: #FAAC17;
+}
+
+.form-control {
+    height: 44px;
+    border-radius: 0;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-transition: initial;
+    -o-transition: initial;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.col-no-padding {
+    padding: 0;
+}
+
+.col-no-padding-left {
+    padding-left: 0;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.light-text {
+    font-weight: 300;
+}
+
+.font-tillium-web {
+    font-family: Titillium Web, sans-serif;
+}
+
+.sidebar-title {
+    font-family: Titillium Web, sans-serif;
+    color: #facd00;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.section-heading {
+    color: #524c52;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.section-heading span:after {
+    background: #ccc;
+}
+
+/*============    Header   ===========*/
+header {
+    background-image: url(../img/Header_Image.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 515px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+header .block-header-home {
+    background-image: url(../img/Header_fon_for_text.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 44px 60px;
+    align-self: center;
+    margin: 60px auto 0;
+    max-width: 780px;
+}
+header .block-header-home h1 {
+    font-family: Titillium Web, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0px 0 21px 0;
+    color: #072132;
+    margin: 0;
+    line-height: 48px;
+}
+header .block-header-home h1 span {
+    display: block;
+}
+header .block-header-home h2 {
+    font-family: Titillium Web, sans-serif;
+    margin: 0;
+    line-height: 33px;
+    font-size: 20px;
+    color: #072132;
+    letter-spacing: 0.759px;
+}
+header .block-header-home .link-explore {
+    margin-top: 35px;
+}
+
+/*========= Services ============*/
+.services .services-block-img-wrapper {
+    width: 100%;
+}
+
+.services-block {
+    padding-right: 60px;
+    position: relative;
+}
+
+.services-block h2 {
+    margin-bottom: 20px;
+}
+
+.services-content {
+    margin-bottom: 32px;
+}
+.services-content.first{
+    margin-bottom:0px;
+}
+
+.services-content h4 {
+    color: #005368;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom:6px;
+    font-family: Titillium Web, sans-serif;
+    font-weight: 600;
+    max-width: 200px;
+}
+.services-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #524C52;
+}
+
+.services-article p{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: #656065;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.services-sidebar {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 999;
+    position: relative !important;
+}
+.services-sidebar-content {
+    background-color: #002C40;
+    padding: 10px 12px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+@media screen and (max-width: 991px) {
+    .services-sidebar-content {
+        position: static;
+    }
+}
+.services-submit {
+    background: #2DB9D0;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top:35px;
+}
+
+.services-bg-light-grey {
+    background-color: #FCFCFC;
+}
+
+/*services form*/
+.checkbox-label {
+    border: 1px solid #979797;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: #fff;
+}
+input:checked + .checkbox-label{
+    background-image: url(../img/checked.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+}
+
+input[type="checkbox"].ischeck {
+    border: 1px solid #979797;
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+input:checked.ischeck {
+    background-image: url(../img/checked.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+}
+
+.checkbox-text {
+    display: block;
+    width: calc(100% - 53px);
+    line-height:18px;
+    margin-bottom: 0;
+}
+
+
+/*services sliders*/
+.services-img {
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+}
+
+.services-img img {
+    width: 100%;
+    height: auto;
+    min-height:214px;
+}
+
+.top-none{
+    margin-top: 96px;
+}
+.slider-slick {
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    padding: 37px 33px 27px 33px;
+    top: 0;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    height: 330px;
+}
+
+.slick-slide {
+    outline: 0;
+}
+
+.desktop-bg {
+    position: relative;
+    background-image: url(../img/Page1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 446px;
+    width: 100%;
+}
+
+.iphone-bg {
+    background-image: url(../img/Smartphone.png);
+    height: 270px;
+    background-size: contain;
+}
+
+.ipad-bg {
+    background-image: url(../img/Tablet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100%;
+    padding: 0;
+}
+
+.ipad-bg .slider-slick {
+    height: 420px;
+    padding: 8% 9% 6% 8%;
+}
+
+.iphone-bg .slider-slick {
+    height: 270px;
+    padding: 4.5% 15% 4.5% 14%;
+}
+
+
+/*========= Our work ============*/
+.our-work h2 {
+    color: #524D52;
+    line-height: 34px;
+    font-size: 28px;
+    font-family: Titillium Web, sans-serif;
+    margin-top: 44px;
+    margin-bottom: 53px;
+}
+.our-work .title-our-work-container p {
+    padding-bottom: 31px;
+    font-family: Titillium Web, sans-serif;
+    line-height: 26px;
+    color: #005468;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.title-our-work-container-right {
+    text-align: right;
+    float: right;
+}
+
+/*========= Advantages ============*/
+.advantages {
+    background-color: #002C40;
+}
+
+.advantages .padding-advantages {
+    padding: 35px 23.4px 45px;
+}
+.advantages .padding-advantages h2 {
+    font-family: Titillium Web, sans-serif;
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 28px;
+    color: #F79D15;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.advantages .padding-advantages p {
+    line-height: 17px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #524D52;
+    padding-bottom: 37px;
+    text-align: center;
+}
+.advantages .padding-advantages img {
+    padding-top: 26px;
+    padding-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+    height: 158px;
+}
+
+.advantages .advantages-bg h4{
+    font-family: Titillium Web, sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+    color:#005468;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.advantages .advantages-bg {
+    height: 334px;
+    background-color: #fff;
+    padding: 0 10px;
+    border-radius:2px;
+}
+
+.white {
+    color: #fff!important;
+    text-align: left!important;
+}
+
+/*========= Showcase, Prefer to create ============*/
+.showcase h2 {
+    font-family: Titillium Web, sans-serif;
+    line-height: 34px;
+    font-size: 28px;
+    color: #005468;
+    margin-bottom: 15px;
+}
+
+.showcase p {
+    line-height: 17px;
+    color: #9B9B9B;
+    margin-bottom: 25px;
+}
+
+.showcase .padding-showcase-row{
+    padding: 50px 0;
+}
+
+.showcase .explore-3d {
+    overflow: hidden;
+}
+
+.showcase .explore-3d iframe {
+    width: 100%;
+    height: 600px;
+    display: block;
+    border: none;
+}
+
+.showcase .explore-3d a img,
+.showcase .explore-3d a {
+    width: 100%;
+    display: block;
+}
+
+.iframe-navigation.nav-pills>li+li {
+    margin-left: 0;
+}
+
+.iframe-navigation.nav-pills>li>a {
+    border-radius: 0;
+    background: none!important;
+    padding: 0;
+}
+.iframe-navigation.nav-pills>li {
+    color: #524D52;
+    padding: 24px 20px 6px;
+    line-height: 34px;
+    font-family:'Titillium Web', sans-serif;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    border-left: none;
+    border-top: none;
+    min-height: 102px;
+    box-sizing: border-box;
+}
+
+.iframe-navigation.nav-pills>li:first-child {
+    border-left: 1px solid #e8e8e8;
+}
+
+.iframe-navigation.nav-pills>li a {
+    color: #524D52;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 0 3px;
+}
+
+.iframe-navigation.nav-pills>li small {
+    font-size: 15px;
+    line-height: 34px;
+    color: #05c5dc;
+    font-weight:600;
+    vertical-align: bottom;
+}
+
+.iframe-navigation.nav-pills>li.active,
+.iframe-navigation.nav-pills>li.active a {
+    background: #00B8CE;
+    color: #fff;
+    font-family: Titillium Web, sans-serif;
+    font-size: 28px;
+}
+
+.iframe-navigation.nav-pills>li.active small {
+    color: #fff;
+}
+
+/*========= Map ============*/
+.map {
+    position: relative;
+    overflow: hidden;
+}
+
+.map #map {
+    width: 100%;
+    height: 700px;
+}
+
+.map-info-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.map-info-container .container {  
+    position: relative;
+}
+
+.map-info {
+    position: absolute;
+    width: 400px;
+    background-image: url(../img/Header_fon_for_text2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 17px;
+    left: 0;
+    padding: 20px 26px;
+    z-index: 2;
+}
+
+.map-info .sidebar-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 0;
+    margin-bottom: 17px;
+    color: #f9ac16;
+    text-align: left;
+}
+
+.map-info .sidebar-content {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+/*========= Prefer to create ============*/
+.image-box {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    float: none;
+}
+
+.image-box img,.image-box svg {
+    width: 100%;
+    height:auto;
+}
+
+/*========= Footer ============*/
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    color: #333;
+}
+
+
+footer .container p {
+    margin-bottom: 0;
+}
+
+
+/*======== Modal ===========*/
+#iframeModal .modal-dialog {
+    width: 95%;
+}
+
+#servicesModal .modal-content,
+#iframeModal .modal-content {
+    background-color: #002C40;
+    border-radius: 0;
+}
+
+#servicesModal .modal-content h4,
+#iframeModal .modal-content h4 {
+    color: #FAAC17;
+}
+
+#servicesModal .modal-content .close,
+#iframeModal .modal-content .close {
+    color: #fff;
+    opacity: .8;
+}
+
+#servicesModal .modal-content .checkbox-text {
+    color: #fff;
+}
+
+#iframeModal iframe {
+    width: 100%;
+    display: block;
+    border: none;
+    height: 100%;
+}
+.services.services-bg-light-grey h2{
+    margin-top:35px;
+}
+.services-img.mobile{
+    padding-left:35px;
+}
+.float-right{
+    float:right;
+}
+.services-block.padding-left{
+    padding-left:60px;
+    padding-right:0px;
+}
+div.small-padding{
+    padding:8px;
+}
+.row.padding-showcase-row.padding-bottom{
+    padding-bottom:0px;
+    padding-top:30px;
+}
+#iframeModal .close{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size:40px;
+    color:white;
+}
+
+/*========= MOBILE ============*/
+@media screen and (max-width: 767px) {
+
+    .sidebar-title {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #f9ac16;
+    }
+
+    /*========= Header ============*/
+
+    header .block-header-home h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    header .block-header-home{
+        padding:60px 20px 40px;
+    }
+
+    header .block-header-home h2 {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    header .block-header-home .link-explore {
+        margin-top: 20px;
+    }
+
+
+    /*========= Services ============*/
+    .services .services-row,
+    .services .services-block-img-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .services-bg-light-grey {
+        background: none;
+    }
+
+    .services .services-block {
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    .services-img {
+        margin-top: 20px;
+    }
+
+    .services-submit {
+        background: transparent;
+        text-transform: none;
+        color: #F9AC16;
+    }
+
+    .services-article p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .services-content h4 {
+        margin: 6px auto;
+    }
+
+    .desktop-bg {
+        height: 320px;
+        max-width: 400px;
+        margin: 0 auto;
+        background-position: center top;
+    }
+
+    .ipad-bg {
+        height: 310px;
+        padding: 0;
+    }
+
+    .iphone-bg {
+        height: 192px;
+    }
+
+    .slider-slick {
+        width: 100%;
+        height: 330px;
+        padding: 4%;
+        top: 0;
+    }
+
+    .ipad-bg .slick-slider {
+        height: 310px;
+        padding: 6% 8% 5% 7%;
+    }
+
+    .iphone-bg .slick-slider {
+        height: 192px;
+        padding: 2% 12% 0px 10%;
+    }
+    .row .services-block.padding-left{
+        padding-left:0px;
+    }
+
+
+    /*========= Our work ============*/
+    .our-work .our-work-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .our-work h2{
+        margin-top:10px;
+    }
+
+    .our-work .title-our-work-container p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    div.float-right{
+        float:left;
+    }
+
+    .title-our-work-container-right {
+        text-align: left;
+    }
+
+    /*========= Advantages =========*/
+    .advantages-bg {
+        margin: 0 0 20px 0;
+    }
+    .padding-advantages .advantages-block{
+        padding-bottom:15px;
+    }
+    div.row div.small-padding{
+        padding:0px;
+    }
+
+    /*========= Showcase ============*/
+    .showcase .explore-3d iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .iframe-navigation.nav-pills>li {
+        border-left: 1px solid #e8e8e8;
+        padding: 25px 21px 12px;
+        min-height: inherit;
+    }
+
+    .showcase .padding-showcase-row{
+        padding-top:20px;
+    }
+
+    /*========= Map ============*/
+    .map #map {
+        height: 350px;
+        display: block;
+    }
+
+    .map .map-info {
+        position: static;
+        padding: 20px;
+        width: 100%;
+    }
+
+    div.row.padding-showcase-row.padding-bottom{
+        padding-top:20px;
+    }
+    .map-info-container {
+        position: inherit;
+    }
+    .map-info-container .container {
+        padding: 0;
+    }
+
+    /*======= svg block ============*/
+    .svg-animation .showcase-svg-box {
+        position: inherit !important;
+        animation: none !important;
+        opacity: 1 !important;
+    }
+    .svg-animation .showcase-image-box-bg {
+        position: inherit !important;
+        margin: 15px 0 0 !important;
+    }
+    .svg-animation .showcase-image-box-bg .image-box {
+        padding-bottom: 25px !important;        
+    }
+    .svg-animation .showcase-image-box-bg img {
+        max-width: 100%;
+        height: auto;
+    }
+    .svg-animation .showcase-image-box-btn {
+        visibility: visible !important; 
+        opacity: 1 !important; 
+        padding: 26px 6px !important; 
+    }
+    .svg-animation .showcase-image-box-btn .btn {  
+        padding: 13px 10px 14px !important; 
+        margin-bottom: 28px !important; 
+    }
+    .showcase#svg-animation > .container > div {
+        padding: 0 5px;
+    }
+    .showcase#svg-animation h2 {
+
+        margin: 33px 0 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    /*========= Advantages =========*/
+    .advantages-block {
+        padding: 0px 0px 60px 0px;
+    }
+}
+@media screen and (min-width:1025px) {
+    /*========= Advantages =========*/
+    .services-article {
+        padding-left:0px;
+        padding-right:30px;
+    }
+    .section-heading,.services-block,.services-img,.services.services-bg-light-grey h2,
+    .our-work .container,.padding-advantages .advantages-block,
+    .row.padding-showcase-row div.col-xs-12{
+        padding-left:0px;
+    }
+    .services-sidebar-content {
+        margin-left: -10px;
+    }
+}
